@@ -1,0 +1,18 @@
+{
+  "name": "LIFE RPG — LEVEL UP",
+  "short_name": "LIFE RPG",
+  "description": "Turn your real life into a motivating RPG. Master your habits, faith, health, work, money, and freedom.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b11",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
