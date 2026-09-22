@@ -41,12 +41,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ar" dir="rtl" className={`${geistSans.variable} ${geistMono.variable} dark h-full`}>
-      <body className="bg-[#080b11] text-slate-100 min-h-screen flex flex-col font-sans antialiased selection:bg-purple-500 selection:text-white text-right">
+      <body className="bg-[#06090f] text-[#f0f4f8] min-h-screen flex flex-col font-sans antialiased selection:bg-violet-600 selection:text-white text-right">
         <RPGProvider>
           <Navbar />
-          <div className="flex flex-1 max-w-7xl w-full mx-auto">
+          <div className="flex flex-1 max-w-6xl w-full mx-auto">
             <Sidebar />
-            <main className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 pb-24 lg:pb-8">
+            <main className="flex-1 min-w-0 px-5 py-7 sm:px-8 sm:py-8 lg:px-10 lg:py-10 pb-28 lg:pb-10">
               {children}
             </main>
           </div>
